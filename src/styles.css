@@ -19,6 +19,13 @@
  */
 
 @theme inline {
+  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --color-brand: #a16207;
+  --color-brand-dark: #78350f;
+  --color-brand-light: #fefce8;
+  --color-ink: #18181b;
+  --color-canvas: #faf7f2;
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
