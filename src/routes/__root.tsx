@@ -88,10 +88,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "Workshop sablon spesialis: sablon manual, DTF, dan custom jersey. Pesan langsung via WhatsApp.",
+          "Workshop sablon spesialis: sablon manual, DTF, dan custom jersey. Hasil rapi, tahan lama, harga transparan. Pesan langsung via WhatsApp.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Karsa Sablon — Jasa Sablon Pakaian Berkualitas" },
+      { name: "twitter:description", content: "Workshop sablon spesialis: sablon manual, DTF, dan custom jersey. Hasil rapi, tahan lama, harga transparan. Pesan langsung via WhatsApp." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ab98b1d0-1b48-4e8d-b223-4a6e493d238d/id-preview-3da82e0a--e1be3714-8115-43c8-aeb8-9f8b5122711f.lovable.app-1784911962526.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ab98b1d0-1b48-4e8d-b223-4a6e493d238d/id-preview-3da82e0a--e1be3714-8115-43c8-aeb8-9f8b5122711f.lovable.app-1784911962526.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
